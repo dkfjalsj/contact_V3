@@ -13,7 +13,7 @@ public class ContactState {
     // id를 자동증가시킬 변수
     private Long nextId = 1L;
 
-    // Getter
+    // Getter: 반환
     public Map<Long, Contact> getStore() {
         return store;
     }
@@ -22,7 +22,7 @@ public class ContactState {
         return nextId;
     }
 
-    // Setter
+    // Setter: 수정
     public void setStore(Map<Long, Contact> store) {
         this.store = store;
     }
